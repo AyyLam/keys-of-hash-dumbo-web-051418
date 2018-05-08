@@ -1,6 +1,10 @@
 class Hash
   def keys_of(*arguments)
     res = []
-    
-  end
+    arguments.each do |key, value| 
+      if value == arguments 
+        res << key
+      end
+    end
+    res
 end
