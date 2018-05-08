@@ -6,5 +6,6 @@ class Hash
         res << key
       end
     end
-    res
+  res
 end
+end 
